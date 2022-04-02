@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZBWTaskFlow"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "ZBWTaskFlow 是一个管理任务的框架."
 
   # This description is used to generate tags and improve search results.

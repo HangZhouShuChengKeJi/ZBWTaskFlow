@@ -13,7 +13,7 @@ extern BOOL ZBWTaskOpenLog;
 #if DEBUG
     #define ZBWTaskLog(format, ...) \
         do {\
-            if (1) {\
+            if (ZBWTaskOpenLog) {\
                 printf(\
                        "\n<%s : %d> %s\n%s\n \n \n",\
                        [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],\
